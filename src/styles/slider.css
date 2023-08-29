@@ -1,0 +1,28 @@
+/*.MainSlide {
+
+    *background: rgb(0, 255, 17);*
+}*/
+.Slider-image {
+    height: 1000px; /* Ajusta el valor según el tamaño de altura deseado */
+    width: auto; /* Ajusta según tu preferencia */
+    object-fit: cover; /* Ajusta el recorte de la imagen */
+}
+
+.fade-carousel {
+    position: relative;
+  }
+  
+  .fade-carousel .carousel {
+    position: relative;
+  }
+  
+  .fade-carousel .carousel .slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Controla la duración y el tipo de transición */
+  }
+  
+  .fade-carousel .carousel .slide.active {
+    opacity: 1;
+  }
+
